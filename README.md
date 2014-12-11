@@ -22,7 +22,7 @@ process.
 If using with a fork version, you must enable native loop support (see below).
 
 ### Options
-
+ - every option that omxplayer supports without leading double minus (--) e.g. {'no-osd':true, 'vol':-100}
  - **audioOutput** `"local"` or `"hdmi"` as `-o` omxplayer argument. If not specified or `"default"` is system default.
  - **loop** `true` to enable `--loop` omxplayer argument. Default is `false`.
 
